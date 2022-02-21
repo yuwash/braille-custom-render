@@ -1,0 +1,28 @@
+{
+  "name": "braille-custom-render",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/braille-custom-render.es.js",
+  "exports": {
+    ".": "./dist/braille-custom-render.es.js"
+  },
+  "types": "types/braille-custom-render.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.2",
+    "braille": "^1.1.0",
+    "braille-encode": "^2.0.1",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
